@@ -1,3 +1,10 @@
 h1. madvertise JavaScript Tag
 
-Please copy the content of the js-tag.html file into your mobile site exactly at that place where you want to display the ads.
+The madvertise JavaScript Tag is a very easy way to request ads from the madvertise ad server and display them on your mobile web site.
+
+Please use the following steps to setup madvertise for you mobile web site successfully:
+1) Copy the content of the js-tag.html file into your mobile site exactly at that place where you want to display the ads. 
+2) Chose the banner_type you want to receive. Default is MMA. These are the available formats: https://redmine.madvertise.me/projects/madapi/wiki/Banner_Formats
+3) Test your mobile web site. You should receive madvertise test banners now.
+4) Replace the site token 'TestTokn' with you valid token in order to receive live-ads. (You can get token by logging in at http://madvertise.com and creating a new site on the platform)
+5) optional: You can implement the three callbacks success, error and no_ad_available in order to execute JavaScript code if these events fire.
