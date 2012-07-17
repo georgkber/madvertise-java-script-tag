@@ -1,1 +1,3 @@
 h1. madvertise JavaScript Tag
+
+Please copy the content of the js-tag.html file into your mobile site exactly at that place where you want to display the ads.
